@@ -1,0 +1,132 @@
+/******************************/
+        /* GENENRAL CSS*/
+/******************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background: rgba(0, 0,0, 0.02);      
+    /* font-family: ; */
+    font-weight: 300;
+    font-size: 16px;
+    text-rendering: optimizeLegibility;
+
+}
+
+.row {
+    margin: 0 0;
+}
+
+section {
+    padding: 85px 0;
+}
+
+.box {
+    padding: 1%;
+    height: auto;
+}
+
+
+/*-----PARAGRAPH------*/
+p {
+    width: 70%;
+    margin-left: 15%;
+    text-align: justify;
+}
+
+/*-----HEADING------*/
+h1, h2, h3, h4 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 150%;
+    text-align: center;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: orange;
+    content: "";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+h3 {
+    font-size: 120%;
+    text-align: center;
+    padding : 20px 0;
+}
+
+h4 {
+    font-size: 100%;
+    text-align: center;
+    padding : 2px 0;
+}
+
+/*-----IMAGES------*/
+img {
+    border-radius: 8px;
+    border: 4px solid #ddd;
+}
+
+
+/******************************/
+        /* HEAD MASTER */
+/******************************/
+.head-master-section {
+    background-color: #f4f4f4;
+    padding-bottom: 30px;
+}
+  
+.box img {
+    width: 100%;
+    height: 420px;
+}
+
+
+/******************************/
+        /* MAGNIFIC POPUP */
+/******************************/
+/* overlay at start */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+  
+    -webkit-transition: all 0.50s ease-out;
+    -moz-transition: all 0.50s ease-out;
+    transition: all 0.50s ease-out;
+  }
+/* overlay animate in */
+.mfp-fade.mfp-bg.mfp-ready {
+    opacity: 0.8;
+  }
+  
+  /* overlay animate out */
+.mfp-fade.mfp-bg.mfp-removing {
+    opacity: 0;
+  }
+  
+/* content at start */
+.mfp-fade.mfp-wrap .mfp-content {
+    opacity: 0;
+  
+    -webkit-transition: all 0.15s ease-out;
+    -moz-transition: all 0.15s ease-out;
+    transition: all 0.15s ease-out;
+  }
+  /* content animate it */
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+    opacity: 1;
+  }
+  /* content animate out */
+  .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+    opacity: 0;
+  }
